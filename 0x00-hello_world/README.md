@@ -1,3 +1,4 @@
 - a script that runs a c file through preprocessor
 - a script that compiles a C file but does not link it
-- a script that generates the assembly code of a C code and save it in an output file   
+- a script that generates the assembly code of a C code and save it in an output file
+- a script that compiles a C file and creates an executable name   
