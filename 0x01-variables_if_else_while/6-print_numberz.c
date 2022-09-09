@@ -1,22 +1,19 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success/correct)
+ * main - prints numbers 0-9 without using char or printf/puts,
+ * and putchar 2x max
+(*
+ * Return: 0 on success
  */
 int main(void)
-
 {
-	int i;
+        int i = '0';
 
-	for (i = 0; i < 10; i++)
-	
-	{
-		printf("%i", i);
-	}
-
-	printf("\n");
-
-		return (0);
-
+        while (i <= '9')
+        {
+                putchar(i);
+                i++;
+        }
+        putchar('\n');
+        return (0);
 }
