@@ -6,6 +6,7 @@
  * Numbers should be coma and space separated.
  * Return: 0
  */
+
 int main(void)
 {
         unsigned long int fr1 = 0, bk1 = 1, fr2 = 0, bk2 = 2;
@@ -34,5 +35,6 @@ int main(void)
                         printf(", ");
         }
         printf("\n");
+
         return (0);
 }
